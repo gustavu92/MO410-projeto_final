@@ -197,6 +197,7 @@
 				}
 			]
 		},
+
 		{
 			"nome" : "Análise do tamanho de poros das esferas",
 			"descricao": "Analisar a regularidade do tamanho dos poros das esferas de cálcio.",
