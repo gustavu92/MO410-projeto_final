@@ -1,9 +1,9 @@
 {
-	"proposta":20180001,
-	"experimentos" : 
+	"proposta": 20180001,
+	"experimentos": 
 	[
 		{
-			"nome" : "Análise da calcificação em ossos",
+			"nome": "Análise da calcificação em ossos",
 			"descricao": "Analisar a qualidade da calcificação em ossos tratados com esferas de cálcio de diferentes tamanhos de poros.",
 			"amostras":
 				[
