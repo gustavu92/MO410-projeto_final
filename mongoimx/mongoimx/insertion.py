@@ -1,8 +1,10 @@
 from .parser import parser_sample, parser_RAfT
 
 
-def add_proposal(proposal_id, collection):
-    collection.insert_one({'proposta': proposal_id})
+def add_proposal(proposal_id, collection, **kargs):
+    document = {'proposta': proposal_id}
+    document.update(kargs)
+    collection.insert_one(document)
 
 def add_experiment(proposal_id, collection, **kwargs):
     collection.update_one({'proposta': proposal_id}, { '$push': { 'experimentos': kwargs } } )
